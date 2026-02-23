@@ -4,27 +4,33 @@ import { ArrowUpRight, Github, ExternalLink } from "lucide-react";
 
 const projects = [
   {
-    title: "FinDash Analytics",
-    category: "SaaS • Fintech",
-    description: "A comprehensive dashboard for financial advisors to track client portfolios in real-time. Reduced reporting time by 40%.",
-    image: "https://images.unsplash.com/photo-1695742968496-2b0127f103cc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkaWdpdGFsJTIwcHJvZHVjdCUyMHdpcmVmcmFtZSUyMHNrZXRjaHxlbnwxfHx8fDE3NzA3NDUwMjB8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-    tags: ["React", "D3.js", "Python", "PostgreSQL"],
+    title: "CV Research Mobile Platform",
+    category: "Digital Health • Research Infrastructure",
+    description:
+      "Led the development of a multi-study mobile platform collecting voice, wearable, and HealthKit data to support longitudinal cardiovascular research. Enabled scalable data pipelines and improved participant engagement across multi-year studies.",
+    image:
+      "https://images.unsplash.com/photo-1581594693702-fbdc51b2763b?auto=format&fit=crop&q=80&w=1080",
+    tags: ["Digital Health", "HealthKit", "Wearables", "Research Platforms"],
     link: "#"
   },
   {
-    title: "TaskMaster Pro",
-    category: "Productivity • Mobile",
-    description: "An AI-powered task management app that prioritizes your day automatically. 100k+ downloads on App Store.",
-    image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&q=80&w=1080",
-    tags: ["Mobile Strategy", "UX Research", "AI Integration"],
+    title: "Voice Journal & Symptom Insights",
+    category: "AI • Next-Generation Diagnostics",
+    description:
+      "Designed a voice-based health journal that extracts symptoms and trends from natural speech, enabling earlier insights into disease progression and supporting next-generation diagnostic research.",
+    image:
+      "https://images.unsplash.com/photo-1581092921461-eab62e97a780?auto=format&fit=crop&q=80&w=1080",
+    tags: ["AI", "Voice Analysis", "NLP", "Early Detection"],
     link: "#"
   },
   {
-    title: "EcoCommerce",
-    category: "E-commerce • Sustainability",
-    description: "Marketplace for sustainable goods. Built the MVP and scaled to $1M GMV in the first year.",
-    image: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&q=80&w=1080",
-    tags: ["Marketplace", "Growth Hacking", "Stripe API"],
+    title: "Digital Biobank Data Infrastructure",
+    category: "Data Governance • AI Enablement",
+    description:
+      "Defined architecture and governance for a large-scale digital biobank, enabling protocol-specific data access and secure use of real-world health data for AI model development and research.",
+    image:
+      "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&q=80&w=1080",
+    tags: ["Data Governance", "AI Pipelines", "Compliance", "Cloud Architecture"],
     link: "#"
   }
 ];

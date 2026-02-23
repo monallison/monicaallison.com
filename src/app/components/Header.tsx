@@ -29,7 +29,7 @@ export function Header() {
     >
       <div className="container mx-auto px-6 flex justify-between items-center">
         <a href="#" className="text-2xl font-bold text-slate-900 tracking-tight">
-          Alex<span className="text-indigo-600">Morgan</span>.
+          Monica<span className="text-indigo-600">Allison</span>.
         </a>
 
         {/* Desktop Nav */}

@@ -13,44 +13,44 @@ import { motion } from "motion/react";
 
 const skills = [
   {
-    category: "Product Strategy",
-    icon: <Target className="w-6 h-6 text-indigo-600" />,
-    items: ["Roadmapping", "Market Research", "Go-to-Market", "KPI Definition"]
-  },
-  {
-    category: "Data & Analytics",
-    icon: <BarChart3 className="w-6 h-6 text-indigo-600" />,
-    items: ["SQL", "Amplitude", "Google Analytics", "A/B Testing"]
-  },
-  {
-    category: "UX/UI Design",
-    icon: <Layout className="w-6 h-6 text-indigo-600" />,
-    items: ["Figma", "Wireframing", "User Journeys", "Prototyping"]
-  },
-  {
-    category: "Agile Leadership",
+    category: "Next-Generation Diagnostics",
     icon: <Zap className="w-6 h-6 text-indigo-600" />,
-    items: ["Scrum", "Sprint Planning", "JIRA / Linear", "Backlog Grooming"]
+    items: [
+      "Voice & wearable data platforms",
+      "Early detection & longitudinal insights",
+      "AI-enabled research translation",
+      "Patient-centered diagnostic innovation"
+    ]
   },
   {
-    category: "User Research",
-    icon: <Search className="w-6 h-6 text-indigo-600" />,
-    items: ["User Interviews", "Survey Design", "Persona Creation", "Usability Testing"]
+    category: "Digital Health Platforms",
+    icon: <Layout className="w-6 h-6 text-indigo-600" />,
+    items: [
+      "Multi-study research systems",
+      "HealthKit & wearable integrations",
+      "Scalable patient engagement",
+      "Cross-platform mobile strategy"
+    ]
   },
   {
-    category: "Technical",
-    icon: <Code2 className="w-6 h-6 text-indigo-600" />,
-    items: ["API Integration", "System Architecture", "HTML/CSS/JS", "Python Basics"]
+    category: "Research → Product Translation",
+    icon: <BarChart3 className="w-6 h-6 text-indigo-600" />,
+    items: [
+      "Clinician & data science collaboration",
+      "Regulatory & compliance awareness",
+      "Operationalizing AI in healthcare",
+      "Turning research into usable tools"
+    ]
   },
   {
-    category: "Communication",
-    icon: <MessageSquare className="w-6 h-6 text-indigo-600" />,
-    items: ["Stakeholder Mgmt", "Public Speaking", "Documentation", "Remote Collaboration"]
-  },
-  {
-    category: "Team Building",
+    category: "Strategic Leadership",
     icon: <Users className="w-6 h-6 text-indigo-600" />,
-    items: ["Mentorship", "Hiring", "Culture Building", "Conflict Resolution"]
+    items: [
+      "Executive stakeholder alignment",
+      "Global engineering teams",
+      "Vision through delivery",
+      "Culture of patient-centered innovation"
+    ]
   }
 ];
 

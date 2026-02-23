@@ -3,25 +3,20 @@ import { motion } from "motion/react";
 
 const jobs = [
   {
-    company: "TechFlow Systems",
+    company: "Mayo Clinic",
     role: "Senior Product Manager",
-    period: "2021 - Present",
-    description: "Leading the Enterprise SaaS division. Increased ARR by 30% through new feature launches and pricing strategy optimization.",
-    logo: "TF"
+    period: "2021 – Present",
+    description:
+      "Leading digital platforms for cardiovascular research and next-generation diagnostics. Built a multi-study mobile ecosystem collecting voice, wearable, and longitudinal health data to enable earlier disease detection and AI-driven insights.",
+    logo: "MC"
   },
   {
-    company: "Creative Pulse",
-    role: "Product Manager",
-    period: "2018 - 2021",
-    description: "Managed the end-to-end lifecycle of the flagship mobile app. Grew active user base from 50k to 500k in 18 months.",
-    logo: "CP"
-  },
-  {
-    company: "DataSphere",
-    role: "Associate PM",
-    period: "2016 - 2018",
-    description: "Collaborated with engineering to ship internal data tools. Reduced reporting turnaround time by 60%.",
-    logo: "DS"
+    company: "Memorial Sloan Kettering Cancer Center",
+    role: "Product & Research Operations Leader",
+    period: "2004 – 2021",
+    description:
+      "Spent 17 years improving patient experience and clinical research operations in cancer care. Led initiatives that streamlined workflows, enhanced patient engagement, and supported research teams in delivering high-quality care and data-driven insights.",
+    logo: "MSK"
   }
 ];
 

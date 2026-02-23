@@ -43,7 +43,7 @@ export function Contact() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-lg">Location</h3>
-                  <p className="text-slate-300">San Francisco, CA (Remote Friendly)</p>
+                  <p className="text-slate-300">Columbus, OH (Remote Friendly)</p>
                 </div>
               </div>
 

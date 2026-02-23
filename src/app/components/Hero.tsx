@@ -17,13 +17,13 @@ export function Hero() {
           transition={{ duration: 0.8 }}
         >
           <div className="inline-block px-4 py-1.5 mb-6 rounded-full bg-indigo-50 text-indigo-700 text-sm font-semibold tracking-wide">
-            Product Manager & Strategist
+            Product Leader | AI, Research, & Patient Experience
           </div>
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-slate-900 leading-tight mb-6">
-            Turning <span className="text-indigo-600">complex data</span> into simple products.
+            Turning <span className="text-indigo-600">complex health data</span> into next-generation diagnostics.
           </h1>
           <p className="text-lg md:text-xl text-slate-600 mb-8 max-w-lg leading-relaxed">
-            I help companies build user-centric products that drive growth and solve real problems. Specializing in SaaS and FinTech.
+            I lead the design and delivery of digital health platforms that help researchers, clinicians, and patients work together to detect disease earlier and improve outcomes. My work spans AI-driven voice analysis, wearable data, and large-scale research systems that turn real-world data into meaningful insights.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <a
