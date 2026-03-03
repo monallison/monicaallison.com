@@ -2,7 +2,22 @@ import React from "react";
 import { motion } from "motion/react";
 import { ArrowUpRight } from "lucide-react";
 
-const projects = [
+type Outcome = {
+  label: string;
+  value: string;
+};
+
+type Project = {
+  title: string;
+  category: string;
+  impact: string;
+  outcomes: Outcome[];
+  tags: string[],
+  image: string;
+  link: string;
+};
+
+const projects: Project[] = [
   {
     title: "CV Research Mobile Platform",
     category: "Digital Health • Mobile Research Infrastructure",
@@ -47,7 +62,7 @@ const projects = [
   }
 ];
 
-function MetricChip({ label, value }) {
+function MetricChip({ label, value }: Outcome) {
   return (
     <div className="rounded-xl border border-slate-200/70 bg-white/70 px-3 py-2">
       <div className="text-[11px] font-semibold text-slate-500">{label}</div>
