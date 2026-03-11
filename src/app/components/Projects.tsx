@@ -42,7 +42,7 @@ const projects: Project[] = [
       { label: "Impact", value: "Enterprise-wide" }
     ],
     tags: ["Epic Integration", "Clinical Research", "Data Modeling", "Stakeholder Alignment"],
-    image: "/images/projects/epic-dashboard.png",
+    image: "/images/projects/CRT_tracking.png",
     link: "#"
   },
   {
