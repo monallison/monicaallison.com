@@ -23,7 +23,7 @@ export function Hero() {
             Turning <span className="text-indigo-600">complex health data</span> into next-generation diagnostics.
           </h1>
           <p className="text-lg md:text-xl text-slate-600 mb-8 max-w-lg leading-relaxed">
-            I lead the design and delivery of digital health platforms that help researchers, clinicians, and patients work together to detect disease earlier and improve outcomes. My work spans AI-driven voice analysis, wearable data, and large-scale research systems that turn real-world data into meaningful insights.
+            With 18+ years spanning healthcare operations, clinical informatics, and digital product development, I build platforms at the intersection of AI, mobile technology, and real-world health data — helping researchers and clinicians detect disease earlier and improve outcomes.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <a

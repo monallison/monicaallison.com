@@ -7,7 +7,7 @@ const jobs = [
     role: "Senior Product Manager",
     period: "2021 – Present",
     description:
-      "Leading digital platforms for cardiovascular research and next-generation diagnostics. Built a multi-study mobile ecosystem collecting voice, wearable, and longitudinal health data to enable earlier disease detection and AI-driven insights.",
+      "Leading product strategy for a multi-study mobile research platform that has collected hundreds of thousands of voice samples and millions of wearable sensor readings to power AI-driven cardiovascular diagnostics and early disease detection.",
     logo: "MC",
   },
   {
@@ -15,7 +15,7 @@ const jobs = [
     role: "Product & Research Operations Leader",
     period: "2005 – 2021",
     description:
-      "Improved patient experience and clinical research operations across 17 years in cancer care. Led initiatives that streamlined workflows, increased engagement, and supported research teams with reliable, data-driven execution.",
+      "Scaled a patient-reported outcomes platform from 12 to 110+ instruments, supporting 1M+ patient submissions and 300K+ patient engagements. Led development of an adverse event reporting system adopted across 820+ clinical trials, and used SQL analysis to eliminate 100K+ unnecessary surveys per month.",
     logo: "MSK",
   },
 ];

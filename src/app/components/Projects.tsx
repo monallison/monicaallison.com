@@ -22,39 +22,39 @@ const projects: Project[] = [
     title: "CV Research Mobile Platform",
     category: "Digital Health • Mobile Research Infrastructure",
     impact:
-      "Built a multi-study mobile platform that scaled longitudinal data collection and improved participant engagement over time.",
+      "Built a multi-study mobile platform at Mayo Clinic collecting hundreds of thousands of voice samples and millions of wearable sensor readings to power AI-driven cardiovascular diagnostics.",
     outcomes: [
-      { label: "Multi-study scalability", value: "Reusable platform" },
-      { label: "Data capture", value: "Voice + wearables" },
-      { label: "Engagement", value: "Sustained over years" }
+      { label: "Voice samples", value: "100Ks collected" },
+      { label: "Sensor readings", value: "Millions captured" },
+      { label: "Platform", value: "Multi-study, 0→1" }
     ],
     tags: ["Product Strategy", "0→1 Platform", "iOS/Android", "Data Pipelines"],
     image: "/images/projects/cv-platform.png",
     link: "#"
   },
   {
-    title: "Epic Integrated Decision Support Dashboard",
-    category: "Clinical Product • Workflow + Decision Support",
+    title: "Clinical Trial Adverse Event Reporting System",
+    category: "Clinical Research • EHR Integration",
     impact:
-      "Delivered an Epic-integrated dashboard that reduced friction in clinical workflows and accelerated time-to-action.",
+      "Led development of an Epic-integrated adverse event reporting system adopted across 820+ therapeutic trials at Memorial Sloan Kettering, replacing manual processes with structured, data-driven documentation.",
     outcomes: [
-      { label: "Workflow impact", value: "Less manual work" },
-      { label: "Speed", value: "Faster decisions" },
-      { label: "Adoption", value: "Deployed in care teams" }
+      { label: "Trial adoption", value: "820+ trials" },
+      { label: "Integration", value: "Epic + EHR" },
+      { label: "Impact", value: "Enterprise-wide" }
     ],
-    tags: ["Epic Integration", "Clinician UX", "Analytics", "Stakeholder Alignment"],
+    tags: ["Epic Integration", "Clinical Research", "Data Modeling", "Stakeholder Alignment"],
     image: "/images/projects/epic-dashboard.png",
     link: "#"
   },
   {
-    title: "Patient-Reported Outcomes Mobile Platform",
+    title: "Patient-Reported Outcomes Platform",
     category: "Patient Experience • PRO Collection at Scale",
     impact:
-      "Created a mobile PRO experience that increased completion, reduced operational burden, and improved longitudinal follow-up.",
+      "Scaled an EHR-integrated PRO platform from 12 to 110+ instruments at MSK, supporting 1M+ patient submissions and using data analysis to eliminate 100K+ unnecessary surveys per month.",
     outcomes: [
-      { label: "Completion", value: "Higher response rates" },
-      { label: "Operational load", value: "Reduced follow-up work" },
-      { label: "Longitudinal", value: "Consistent tracking" }
+      { label: "Patient submissions", value: "1M+" },
+      { label: "Surveys eliminated", value: "100K+/month" },
+      { label: "Instruments scaled", value: "12 → 110+" }
     ],
     tags: ["Mobile UX", "Behavioral Nudges", "Study Ops", "Measurement Design"],
     image: "/images/projects/pro-platform.png",
