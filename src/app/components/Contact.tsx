@@ -1,6 +1,6 @@
 import React from "react";
 import { useForm } from "react-hook-form";
-import { Mail, MapPin, Linkedin, Twitter, ArrowRight } from "lucide-react";
+import { Mail, MapPin, Linkedin, ArrowRight } from "lucide-react";
 import { motion } from "motion/react";
 
 export function Contact() {
@@ -50,11 +50,8 @@ export function Contact() {
               <div className="pt-8">
                 <h3 className="font-semibold text-lg mb-4">Connect</h3>
                 <div className="flex gap-4">
-                  <a href="#" className="w-10 h-10 rounded-full bg-white/10 hover:bg-indigo-600 flex items-center justify-center transition-all">
+                  <a href="https://www.linkedin.com/in/monicaallison1/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/10 hover:bg-indigo-600 flex items-center justify-center transition-all">
                     <Linkedin size={20} />
-                  </a>
-                  <a href="#" className="w-10 h-10 rounded-full bg-white/10 hover:bg-blue-500 flex items-center justify-center transition-all">
-                    <Twitter size={20} />
                   </a>
                 </div>
               </div>
