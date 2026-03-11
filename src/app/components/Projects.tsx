@@ -1,19 +1,12 @@
-import React from "react";
 import { motion } from "motion/react";
-
-type Outcome = {
-  label: string;
-  value: string;
-};
 
 type Project = {
   title: string;
   category: string;
   impact: string;
-  outcomes: Outcome[];
-  tags: string[],
+  platform: string;
+  focus: string[];
   image: string;
-  link: string;
 };
 
 const projects: Project[] = [
@@ -22,53 +15,29 @@ const projects: Project[] = [
     category: "Digital Health • Mobile Research Infrastructure",
     impact:
       "350K+ voice samples and 3.3B wearable sensor readings powering AI-driven cardiovascular research at Mayo Clinic. Led development of a multi-study mobile platform integrating HealthKit and Health Connect to create a scalable digital biobank.",
-    outcomes: [
-      { label: "Stack", value: "iOS & Android" },
-      { label: "Integrations", value: "HealthKit & Health Connect" },
-      { label: "Tooling", value: "Azure DevOps · Jira" }
-    ],
-    tags: ["Product Strategy", "0→1 Platform", "iOS/Android", "Data Pipelines"],
+    platform: "iOS • Android • Apple HealthKit • Google Health Connect • Azure",
+    focus: ["Product Strategy", "Platform Architecture", "0→1 Platform Launch", "Data Pipelines"],
     image: "/images/projects/cv-platform.png",
-    link: "#"
   },
   {
     title: "Clinical Trial Adverse Event Reporting System",
     category: "Clinical Research • EHR Integration",
     impact:
       "Adopted across 820+ therapeutic trials at Memorial Sloan Kettering. Replaced fragmented manual reporting with a structured adverse event reporting platform integrated with clinical workflows.",
-    outcomes: [
-      { label: "Stack", value: "REDCap · SQL" },
-      { label: "Tooling", value: "Jira · Lucidchart" },
-      { label: "Data", value: "Tableau · ThoughtSpot" }
-    ],
-    tags: ["Clinical Research", "Data Modeling", "EHR Integration", "Stakeholder Alignment"],
+    platform: "EHR Integration • Clinical Data Systems • SQL",
+    focus: ["Product Strategy", "0→1 Platform Launch", "Clinical Workflow Transformation"],
     image: "/images/projects/CRT_tracking.png",
-    link: "#"
   },
   {
     title: "Patient-Reported Outcomes Platform",
     category: "Patient Experience • PRO Collection at Scale",
     impact:
       "Scaled PRO collection from 12 to 110+ instruments, supporting 1M+ patient submissions and reducing unnecessary surveys by 100K+ per month.",
-    outcomes: [
-      { label: "Stack", value: "Epic · REDCap" },
-      { label: "Analytics", value: "SQL · Tableau" },
-      { label: "Tooling", value: "Jira · Miro" }
-    ],
-    tags: ["Mobile UX", "Behavioral Nudges", "Study Ops", "Measurement Design"],
+    platform: "EHR • SQL • Tableau",
+    focus: ["Measurement Design", "Behavioral Nudges", "Clinical Research Operations"],
     image: "/images/projects/Survey.png",
-    link: "#"
   }
 ];
-
-function MetricChip({ label, value }: Outcome) {
-  return (
-    <div className="rounded-xl border border-slate-200/70 bg-white/70 px-3 py-2">
-      <div className="text-[11px] font-semibold text-slate-500">{label}</div>
-      <div className="text-sm font-semibold text-slate-900">{value}</div>
-    </div>
-  );
-}
 
 export function Projects() {
   return (
@@ -83,7 +52,6 @@ export function Projects() {
               A few representative builds where I led strategy, aligned stakeholders, and shipped outcomes.
             </p>
           </div>
-
         </div>
 
         <div className="grid lg:grid-cols-3 gap-8">
@@ -121,29 +89,29 @@ export function Projects() {
                   {project.impact}
                 </p>
 
-                <div className="mt-5 grid grid-cols-3 gap-3">
-                  {project.outcomes.map((m) => (
-                    <MetricChip key={m.label} label={m.label} value={m.value} />
-                  ))}
+                <div className="mt-5 space-y-3">
+                  <div>
+                    <div className="text-[10px] font-bold tracking-widest text-slate-400 uppercase mb-1">Platform</div>
+                    <div className="text-sm text-slate-700">{project.platform}</div>
+                  </div>
+                  <div>
+                    <div className="text-[10px] font-bold tracking-widest text-slate-400 uppercase mb-1">Focus</div>
+                    <div className="flex flex-wrap gap-1.5">
+                      {project.focus.map((tag) => (
+                        <span
+                          key={tag}
+                          className="px-2.5 py-1 rounded-full text-xs font-semibold bg-slate-100 text-slate-700"
+                        >
+                          {tag}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
                 </div>
-
-                <div className="mt-5 flex flex-wrap gap-2">
-                  {project.tags.map((tag) => (
-                    <span
-                      key={tag}
-                      className="px-3 py-1 rounded-full text-xs font-semibold
-                                 bg-slate-100 text-slate-700"
-                    >
-                      {tag}
-                    </span>
-                  ))}
-                </div>
-
               </div>
             </motion.article>
           ))}
         </div>
-
       </div>
     </section>
   );
