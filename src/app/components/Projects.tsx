@@ -1,6 +1,5 @@
 import React from "react";
 import { motion } from "motion/react";
-import { ArrowUpRight } from "lucide-react";
 
 type Outcome = {
   label: string;
@@ -85,12 +84,6 @@ export function Projects() {
             </p>
           </div>
 
-          <a
-            href="#"
-            className="hidden md:inline-flex items-center gap-2 text-sm font-semibold text-indigo-600 hover:text-indigo-700"
-          >
-            View all projects <ArrowUpRight size={16} />
-          </a>
         </div>
 
         <div className="grid lg:grid-cols-3 gap-8">
@@ -146,25 +139,11 @@ export function Projects() {
                   ))}
                 </div>
 
-                <a
-                  href={project.link}
-                  className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-slate-900 hover:text-indigo-600"
-                >
-                  Case Study <ArrowUpRight size={16} />
-                </a>
               </div>
             </motion.article>
           ))}
         </div>
 
-        <div className="mt-12 md:hidden">
-          <a
-            href="#"
-            className="inline-flex items-center gap-2 text-sm font-semibold text-indigo-600 hover:text-indigo-700"
-          >
-            View all projects <ArrowUpRight size={16} />
-          </a>
-        </div>
       </div>
     </section>
   );
