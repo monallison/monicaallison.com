@@ -56,7 +56,7 @@ const projects: Project[] = [
       { label: "Instruments scaled", value: "12 → 110+" }
     ],
     tags: ["Mobile UX", "Behavioral Nudges", "Study Ops", "Measurement Design"],
-    image: "/images/projects/pro-platform.png",
+    image: "/images/projects/Survey.png",
     link: "#"
   }
 ];
