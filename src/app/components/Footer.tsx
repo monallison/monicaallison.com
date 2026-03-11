@@ -7,6 +7,9 @@ export function Footer() {
         <div className="text-slate-400 text-sm">
           © {new Date().getFullYear()} Monica Allison. All rights reserved.
         </div>
+        <div className="text-slate-500 text-sm">
+          Designed & vibe coded by Monica · Built with Next.js & Claude
+        </div>
         
         {/*
         <div className="flex items-center gap-6 text-slate-400 text-sm">
