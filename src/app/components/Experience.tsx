@@ -13,7 +13,7 @@ const jobs = [
   {
     company: "Memorial Sloan Kettering Cancer Center",
     role: "Product & Research Operations Leader",
-    period: "2004 – 2021",
+    period: "2005 – 2021",
     description:
       "Improved patient experience and clinical research operations across 17 years in cancer care. Led initiatives that streamlined workflows, increased engagement, and supported research teams with reliable, data-driven execution.",
     logo: "MSK",

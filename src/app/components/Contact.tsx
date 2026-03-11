@@ -33,7 +33,7 @@ export function Contact() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-lg">Email</h3>
-                  <a href="mailto:hello@alexmorgan.pm" className="text-slate-300 hover:text-white transition-colors">hello@alexmorgan.pm</a>
+                  <a href="mailto:monica@monicaallison.com" className="text-slate-300 hover:text-white transition-colors">monica@monicaallison.com</a>
                 </div>
               </div>
 
