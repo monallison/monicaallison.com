@@ -21,11 +21,11 @@ const projects: Project[] = [
     title: "CV Research Mobile Platform",
     category: "Digital Health • Mobile Research Infrastructure",
     impact:
-      "Built a multi-study mobile platform at Mayo Clinic collecting hundreds of thousands of voice samples and millions of wearable sensor readings to power AI-driven cardiovascular diagnostics.",
+      "Built a multi-study mobile platform at Mayo Clinic collecting 350K+ voice samples and 3.3B+ wearable sensor readings to power AI-driven cardiovascular diagnostics.",
     outcomes: [
-      { label: "Voice samples", value: "100Ks collected" },
-      { label: "Sensor readings", value: "Millions captured" },
-      { label: "Platform", value: "Multi-study, 0→1" }
+      { label: "Stack", value: "iOS & Android" },
+      { label: "Integrations", value: "HealthKit & Health Connect" },
+      { label: "Tooling", value: "Azure DevOps · Jira" }
     ],
     tags: ["Product Strategy", "0→1 Platform", "iOS/Android", "Data Pipelines"],
     image: "/images/projects/cv-platform.png",
@@ -35,13 +35,13 @@ const projects: Project[] = [
     title: "Clinical Trial Adverse Event Reporting System",
     category: "Clinical Research • EHR Integration",
     impact:
-      "Led development of an Epic-integrated adverse event reporting system adopted across 820+ therapeutic trials at Memorial Sloan Kettering, replacing manual processes with structured, data-driven documentation.",
+      "Led development of a clinical adverse event reporting system adopted across 820+ therapeutic trials at Memorial Sloan Kettering, replacing manual processes with structured, data-driven documentation.",
     outcomes: [
-      { label: "Trial adoption", value: "820+ trials" },
-      { label: "Integration", value: "Epic + EHR" },
-      { label: "Impact", value: "Enterprise-wide" }
+      { label: "Stack", value: "REDCap · SQL" },
+      { label: "Tooling", value: "Jira · Lucidchart" },
+      { label: "Data", value: "Tableau · ThoughtSpot" }
     ],
-    tags: ["Epic Integration", "Clinical Research", "Data Modeling", "Stakeholder Alignment"],
+    tags: ["Clinical Research", "Data Modeling", "EHR Integration", "Stakeholder Alignment"],
     image: "/images/projects/CRT_tracking.png",
     link: "#"
   },
@@ -51,9 +51,9 @@ const projects: Project[] = [
     impact:
       "Scaled an EHR-integrated PRO platform from 12 to 110+ instruments at MSK, supporting 1M+ patient submissions and using data analysis to eliminate 100K+ unnecessary surveys per month.",
     outcomes: [
-      { label: "Patient submissions", value: "1M+" },
-      { label: "Surveys eliminated", value: "100K+/month" },
-      { label: "Instruments scaled", value: "12 → 110+" }
+      { label: "Stack", value: "Epic · REDCap" },
+      { label: "Analytics", value: "SQL · Tableau" },
+      { label: "Tooling", value: "Jira · Miro" }
     ],
     tags: ["Mobile UX", "Behavioral Nudges", "Study Ops", "Measurement Design"],
     image: "/images/projects/Survey.png",
