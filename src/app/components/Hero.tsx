@@ -73,23 +73,7 @@ export function Hero() {
             <p className="text-xs text-slate-500">Achieved in Q3 for Project Alpha</p>
           </motion.div>
 
-           {/* Floater Card 2 */}
-           <motion.div
-            initial={{ y: -20, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
-            transition={{ delay: 0.8 }}
-            className="absolute top-12 right-[-20px] md:right-[-30px] bg-white p-4 rounded-xl shadow-xl border border-slate-100"
-          >
-            <div className="text-sm font-bold text-slate-800 mb-1">Product Launch</div>
-            <div className="flex -space-x-2">
-               {[1,2,3].map(i => (
-                 <div key={i} className={`w-8 h-8 rounded-full border-2 border-white bg-slate-${i*200} flex items-center justify-center text-[10px]`}>
-                   <img src={`https://randomuser.me/api/portraits/thumb/men/${i+20}.jpg`} className="w-full h-full rounded-full" alt="User" />
-                 </div>
-               ))}
-               <div className="w-8 h-8 rounded-full border-2 border-white bg-slate-100 flex items-center justify-center text-[10px] font-bold text-slate-600">+12</div>
-            </div>
-          </motion.div>
+
         </motion.div>
       </div>
 
