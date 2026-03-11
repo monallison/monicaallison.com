@@ -21,7 +21,7 @@ const projects: Project[] = [
     title: "CV Research Mobile Platform",
     category: "Digital Health • Mobile Research Infrastructure",
     impact:
-      "Built a multi-study mobile platform at Mayo Clinic collecting 350K+ voice samples and 3.3B+ wearable sensor readings to power AI-driven cardiovascular diagnostics.",
+      "350K+ voice samples and 3.3B wearable sensor readings powering AI-driven cardiovascular research at Mayo Clinic. Led development of a multi-study mobile platform integrating HealthKit and Health Connect to create a scalable digital biobank.",
     outcomes: [
       { label: "Stack", value: "iOS & Android" },
       { label: "Integrations", value: "HealthKit & Health Connect" },
@@ -35,7 +35,7 @@ const projects: Project[] = [
     title: "Clinical Trial Adverse Event Reporting System",
     category: "Clinical Research • EHR Integration",
     impact:
-      "Led development of a clinical adverse event reporting system adopted across 820+ therapeutic trials at Memorial Sloan Kettering, replacing manual processes with structured, data-driven documentation.",
+      "Adopted across 820+ therapeutic trials at Memorial Sloan Kettering. Replaced fragmented manual reporting with a structured adverse event reporting platform integrated with clinical workflows.",
     outcomes: [
       { label: "Stack", value: "REDCap · SQL" },
       { label: "Tooling", value: "Jira · Lucidchart" },
@@ -49,7 +49,7 @@ const projects: Project[] = [
     title: "Patient-Reported Outcomes Platform",
     category: "Patient Experience • PRO Collection at Scale",
     impact:
-      "Scaled an EHR-integrated PRO platform from 12 to 110+ instruments at MSK, supporting 1M+ patient submissions and using data analysis to eliminate 100K+ unnecessary surveys per month.",
+      "Scaled PRO collection from 12 to 110+ instruments, supporting 1M+ patient submissions and reducing unnecessary surveys by 100K+ per month.",
     outcomes: [
       { label: "Stack", value: "Epic · REDCap" },
       { label: "Analytics", value: "SQL · Tableau" },
