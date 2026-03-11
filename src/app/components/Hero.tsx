@@ -57,22 +57,7 @@ export function Hero() {
             <div className="absolute inset-0 bg-gradient-to-t from-slate-900/40 to-transparent" />
           </div>
 
-          {/* Floater Card 1 */}
-          <motion.div
-            initial={{ y: 20, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
-            transition={{ delay: 0.6 }}
-            className="absolute bottom-8 left-[-20px] md:left-[-40px] bg-white p-4 rounded-xl shadow-xl border border-slate-100 max-w-[200px]"
-          >
-            <div className="flex items-center gap-3 mb-2">
-              <div className="w-10 h-10 rounded-full bg-green-100 flex items-center justify-center text-green-600 font-bold">
-                +45%
-              </div>
-              <div className="text-sm font-bold text-slate-800">User Growth</div>
-            </div>
-            <p className="text-xs text-slate-500">Achieved in Q3 for Project Alpha</p>
-          </motion.div>
-
+ 
 
         </motion.div>
       </div>
