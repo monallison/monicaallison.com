@@ -8,7 +8,7 @@ export function Footer() {
           © {new Date().getFullYear()} Monica Allison. All rights reserved.
         </div>
         <div className="text-slate-500 text-sm">
-          Designed & vibe coded by Monica · Built with Next.js & Claude
+          Vibe coded by Monica · Designed with Figma Make · Built with Next.js & Claude
         </div>
         
         {/*
