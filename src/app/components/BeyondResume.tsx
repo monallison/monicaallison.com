@@ -4,7 +4,7 @@ export function BeyondResume() {
   return (
     <section className="py-20 md:py-24 bg-slate-50">
       <div className="container mx-auto px-6">
-        <div className="max-w-4xl mx-auto">
+        <div>
           <motion.div
             initial={{ opacity: 0, y: 14 }}
             whileInView={{ opacity: 1, y: 0 }}
