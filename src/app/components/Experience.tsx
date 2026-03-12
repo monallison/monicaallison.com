@@ -12,7 +12,7 @@ const jobs = [
   },
   {
     company: "Memorial Sloan Kettering Cancer Center",
-    role: "Product & Research Operations Leader",
+    role: "Product & Operations Leader",
     period: "2005 – 2021",
     description:
       "Scaled a patient-reported outcomes platform from 12 to 110+ instruments, supporting 1M+ patient submissions and 300K+ patient engagements. Led development of an adverse event reporting system adopted across 820+ clinical trials, and used SQL analysis to eliminate 100K+ unnecessary surveys per month.",
