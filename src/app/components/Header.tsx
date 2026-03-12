@@ -3,7 +3,7 @@ import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
 
 const navItems = [
-  { name: "About", href: "#about" },
+  { name: "About", href: "#" },
   { name: "Experience", href: "#experience" },
   { name: "Work", href: "#projects" },
   { name: "Contact", href: "#contact" },
