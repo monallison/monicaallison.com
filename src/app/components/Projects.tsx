@@ -49,7 +49,7 @@ export function Projects() {
               Featured Projects
             </h2>
             <p className="mt-4 text-lg text-slate-600 max-w-2xl">
-              A few representative builds where I led strategy, aligned stakeholders, and shipped outcomes.
+              A few representative builds where I led strategy, aligned stakeholders, and delivered meaningful outcomes.
             </p>
           </div>
         </div>
