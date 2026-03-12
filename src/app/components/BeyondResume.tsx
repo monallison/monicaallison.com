@@ -20,8 +20,10 @@ export function BeyondResume() {
             <p className="text-lg text-slate-600 leading-relaxed max-w-2xl mb-12">
               Full disclosure: I have a past life. Before healthcare tech, I was an independent
               singer-songwriter with a full album, an EP, and a lot of opinions about bridges and
-              choruses. Turns out writing songs and building products aren't that different — both
-              require knowing your audience, killing your darlings, and shipping before you're ready.
+              choruses. Turns out writing songs and building products aren't that different. Both
+              require knowing your audience, killing your darlings, and bringing many voices into
+              harmony. My superpower is orchestration: setting the tempo, making the calls, and
+              helping teams deliver something worth hearing.
             </p>
           </motion.div>
 
