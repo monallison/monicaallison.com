@@ -1,7 +1,6 @@
 import React from "react";
 import { Header } from "./components/Header";
 import { Hero } from "./components/Hero";
-import { Skills } from "./components/Skills";
 import { Experience } from "./components/Experience";
 import { Projects } from "./components/Projects";
 import { BeyondResume } from "./components/BeyondResume";
@@ -14,8 +13,7 @@ export default function App() {
       <Header />
       <main>
         <Hero />
-        <Skills />
-        <Experience />
+<Experience />
         <Projects />
         <BeyondResume />
         <Contact />
