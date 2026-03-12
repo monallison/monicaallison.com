@@ -4,7 +4,7 @@ export function BeyondResume() {
   return (
     <section className="py-20 md:py-24 bg-slate-50">
       <div className="container mx-auto px-6">
-        <div>
+        <div className="grid lg:grid-cols-2 gap-14 xl:gap-16 items-center">
           <motion.div
             initial={{ opacity: 0, y: 14 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -17,7 +17,7 @@ export function BeyondResume() {
             <h2 className="text-3xl md:text-4xl font-semibold tracking-tight text-slate-900 mb-6">
               A little more about me.
             </h2>
-            <p className="text-lg text-slate-600 leading-relaxed max-w-2xl mb-12">
+            <p className="text-lg text-slate-600 leading-relaxed">
               Full disclosure: I have a past life. Before healthcare tech, I was an independent
               singer-songwriter with a full album, an EP, and a lot of opinions about bridges and
               choruses. Turns out writing songs and building products aren't that different. Both
