@@ -14,7 +14,7 @@ const projects: Project[] = [
     title: "CV Research Mobile Platform",
     category: "Digital Health • Mobile Research Infrastructure",
     impact:
-      "350K+ voice samples and 3.3B wearable sensor readings powering AI-driven cardiovascular research at Mayo Clinic. Led development of a multi-study mobile platform integrating HealthKit and Health Connect to create a scalable digital biobank.",
+      "350K+ voice samples and 3.3B wearable sensor readings powering AI-driven cardiovascular research at Mayo Clinic. Led development of a multi-study mobile platform integrating HealthKit and Health Connect to create a scalable digital biobank. Achieved a 48% WAU/MAU ratio, reflecting strong sustained engagement among research participants.",
     platform: "iOS • Android • Apple HealthKit • Google Health Connect • Azure",
     focus: ["Product Strategy", "Platform Architecture", "0→1 Platform Launch", "Data Pipelines"],
     image: "/images/projects/cv-platform.png",
