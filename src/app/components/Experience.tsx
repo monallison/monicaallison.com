@@ -7,7 +7,7 @@ const jobs = [
     role: "Senior Product Manager",
     period: "2021 – Present",
     description:
-      "Leading product strategy for a multi-study mobile research platform that has collected hundreds of thousands of voice samples and billions of wearable sensor readings to power AI-driven cardiovascular diagnostics and early disease detection. The mobile app sustains a 48% WAU/MAU ratio across an active research participant base.",
+      "Leading product strategy for a multi-study mobile research platform that has collected hundreds of thousands of voice samples and billions of wearable sensor readings to power AI-driven diagnostics and early disease detection, with a primary focus on Cardiovascular disease. The mobile apps sustain consistent, frequent engagement with a 48% WAU/MAU ratio across an active research participant base.",
     logo: "MC",
   },
   {
