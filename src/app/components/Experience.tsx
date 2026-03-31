@@ -15,7 +15,7 @@ const jobs = [
     role: "Product & Operations Leader",
     period: "2005 – 2021",
     description:
-      "Scaled a patient-reported outcomes platform from 12 to 110+ instruments, supporting 1M+ patient submissions and 300K+ patient engagements. Led development of an adverse event reporting system adopted across 820+ clinical trials, and used SQL analysis to eliminate 100K+ unnecessary surveys per month.",
+      "Led 0-1 development of an adverse event reporting system adopted across 820+ clinical trials. Scaled a patient-reported outcomes (PRO) solution from 12 to 110+ instruments that enabled over 1M+ patient survey/questionnaire submissions supporting research and quality improvement.",
     logo: "MSK",
   },
 ];
