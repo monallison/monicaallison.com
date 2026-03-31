@@ -4,6 +4,7 @@ import { motion } from "motion/react";
 const jobs = [
   {
     company: "Mayo Clinic",
+    url: "https://www.mayoclinic.org",
     role: "Senior Product Manager",
     period: "2021 – Present",
     description:
@@ -12,6 +13,7 @@ const jobs = [
   },
   {
     company: "Memorial Sloan Kettering Cancer Center",
+    url: "https://www.mskcc.org",
     role: "Product & Operations Leader",
     period: "2005 – 2021",
     description:
@@ -118,7 +120,14 @@ export function Experience() {
 
                   <div className="mt-2 text-slate-700 font-medium">
                     <span className="text-slate-500">at </span>
-                    <span className="text-indigo-600">{job.company}</span>
+                    <a
+                      href={job.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-indigo-600 hover:underline"
+                    >
+                      {job.company}
+                    </a>
                   </div>
 
                   <p className="mt-3 text-slate-600 leading-relaxed max-w-xl">
