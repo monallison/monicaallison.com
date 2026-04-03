@@ -5,7 +5,7 @@ const jobs = [
   {
     company: "Mayo Clinic",
     url: "https://www.mayoclinic.org",
-    role: "Senior Product Manager",
+    role: "Technical Product Leader",
     period: "2021 – Present",
     description:
       "Leading product strategy for a multi-study mobile research platform that has collected hundreds of thousands of voice samples and billions of wearable sensor readings to power AI-driven diagnostics and early disease detection, with a primary focus on Cardiovascular disease. The mobile apps sustain consistent, frequent engagement with a 48% WAU/MAU ratio across an active research participant base.",
