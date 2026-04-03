@@ -17,10 +17,10 @@ export function Hero() {
           transition={{ duration: 0.8 }}
         >
           <div className="inline-block px-4 py-1.5 mb-6 rounded-full bg-indigo-50 text-indigo-700 text-sm font-semibold tracking-wide">
-            Product Leader | AI, Research, & Patient Experience
+            Technical Product Leader | Platforms, Mobile, Data & Digital Health
           </div>
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-slate-900 leading-tight mb-6">
-            Turning <span className="text-indigo-600">complex health data</span> into next-generation diagnostics.
+            Turning <span className="text-indigo-600">complex healthcare and research problems</span> into scalable products and systems.
           </h1>
           <p className="text-lg md:text-xl text-slate-600 mb-8 max-w-lg leading-relaxed">
             With 18+ years spanning healthcare operations, clinical informatics, and digital product development, I build platforms at the intersection of AI, mobile technology, and real-world health data, helping researchers and clinicians detect disease earlier and improve outcomes.

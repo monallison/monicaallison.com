@@ -27,3 +27,9 @@ yarn-error.log*
 
 # Coverage
 coverage/
+
+# SSL certificates / private keys
+*.pem   
+
+# if you deploy with Vercel
+.vercel        
