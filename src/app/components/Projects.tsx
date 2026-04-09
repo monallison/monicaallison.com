@@ -11,19 +11,19 @@ type Project = {
 
 const projects: Project[] = [
   {
-    title: "CV Research Mobile Platform",
+    title: "Digital Biobank & CV Research Platform",
     category: "Digital Health • Mobile Research Infrastructure",
     impact:
-      "350K+ voice samples and 3.3B wearable sensor readings powering AI-driven cardiovascular research at Mayo Clinic. Led development of a multi-study mobile platform integrating HealthKit and Health Connect to create a scalable digital biobank. Achieved a 48% WAU/MAU ratio, reflecting strong sustained engagement among research participants.",
+      "Led development of a scalable digital biobank powering AI-driven cardiovascular research at Mayo Clinic — 350K+ voice samples, 3.3B sensor readings, and sustained 48% WAU/MAU engagement among research participants.",
     platform: "iOS • Android • Apple HealthKit • Google Health Connect • Azure",
     focus: ["Product Strategy", "Platform Architecture", "0→1 Platform Launch", "Data Pipelines"],
     image: "/images/projects/cv-platform.png",
   },
   {
-    title: "Clinical Trial Adverse Event Reporting System",
+    title: "Clinical Trial Safety Reporting Platform",
     category: "Clinical Research • EHR Integration",
     impact:
-      "Adopted across 820+ therapeutic trials at Memorial Sloan Kettering. Replaced fragmented manual reporting with a structured adverse event reporting platform integrated with clinical workflows.",
+      "Replaced fragmented manual adverse event reporting with a structured platform adopted across 820+ therapeutic trials at Memorial Sloan Kettering — integrated directly into clinical workflows.",
     platform: "EHR Integration • Clinical Data Systems • SQL",
     focus: ["Product Strategy", "0→1 Platform Launch", "Clinical Workflow Transformation"],
     image: "/images/projects/CRT_tracking.png",
@@ -32,9 +32,9 @@ const projects: Project[] = [
     title: "Patient-Reported Outcomes Platform",
     category: "Patient Experience • PRO Collection at Scale",
     impact:
-      "Scaled PRO collection from 12 to 110+ instruments, supporting 1M+ patient submissions and reducing unnecessary surveys by 100K+ per month.",
-    platform: "EHR • SQL • Tableau",
-    focus: ["Measurement Design", "Behavioral Nudges", "Clinical Research Operations"],
+      "Transformed a stalled PRO program into a scaled platform — 110+ instruments, 1M+ patient submissions, and 100K+ unnecessary surveys eliminated per month.",
+    platform: "Custom-built",
+    focus: ["Product Strategy", "Patient Engagement", "Product Turnaround"],
     image: "/images/projects/Survey.png",
   }
 ];
