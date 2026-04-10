@@ -1,5 +1,13 @@
 import { motion } from "motion/react";
 
+type Publication = {
+  title: string;
+  venue: string;
+  year: number;
+  note?: string;
+  url?: string;
+};
+
 type Project = {
   title: string;
   category: string;
@@ -7,6 +15,7 @@ type Project = {
   platform: string;
   focus: string[];
   image: string;
+  publications?: Publication[];
 };
 
 const projects: Project[] = [
@@ -27,6 +36,13 @@ const projects: Project[] = [
     platform: "EHR Integration • Clinical Data Systems • SQL",
     focus: ["Product Strategy", "0→1 Platform Launch", "Clinical Workflow Transformation"],
     image: "/images/projects/CRT_tracking.png",
+    publications: [
+      {
+        title: "A New Approach to Documenting and Reporting of Clinical Trial-Emergent Adverse Events.",
+        venue: "AMIA Clinical Informatics Conference",
+        year: 2020,
+      },
+    ],
   },
   {
     title: "Patient-Reported Outcomes Platform",
@@ -36,7 +52,23 @@ const projects: Project[] = [
     platform: "Custom-built",
     focus: ["Product Strategy", "Patient Engagement", "Product Turnaround"],
     image: "/images/projects/Survey.png",
-  }
+    publications: [
+      {
+        title: "Case Study of Integrating Electronic Patient-Reported Outcomes as Standard of Care in a Head and Neck Oncology Practice: Obstacles and Opportunities.",
+        venue: "Cancer",
+        year: 2021,
+        note: "Named author",
+        url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC8375640/",
+      },
+      {
+        title: "MSK Engage: A Comprehensive Program for Collection of Patient Reported Outcomes at Scale.",
+        venue: "Journal of Clinical Oncology",
+        year: 2024,
+        note: "Platform featured",
+        url: "https://ascopubs.org/doi/10.1200/JCO.2024.42.16_suppl.e13666",
+      },
+    ],
+  },
 ];
 
 export function Projects() {
@@ -107,6 +139,36 @@ export function Projects() {
                       ))}
                     </div>
                   </div>
+
+                  {project.publications && (
+                    <div>
+                      <div className="text-[10px] font-bold tracking-widest text-slate-400 uppercase mb-2">Publications</div>
+                      <ul className="space-y-2">
+                        {project.publications.map((pub) => (
+                          <li key={pub.title} className="text-xs text-slate-600 leading-snug">
+                            {pub.url ? (
+                              <a
+                                href={pub.url}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="hover:text-indigo-600 transition-colors"
+                              >
+                                <span className="italic">{pub.title}</span>
+                              </a>
+                            ) : (
+                              <span className="italic">{pub.title}</span>
+                            )}
+                            <span className="text-slate-400"> {pub.venue}, {pub.year}.</span>
+                            {pub.note && (
+                              <span className="ml-1.5 px-1.5 py-0.5 rounded text-[10px] font-semibold bg-indigo-50 text-indigo-600">
+                                {pub.note}
+                              </span>
+                            )}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
                 </div>
               </div>
             </motion.article>
