@@ -37,10 +37,9 @@ export function Experience() {
             </h2>
 
             <p className="mt-5 text-lg leading-relaxed text-slate-600 max-w-xl">
-              I lead product strategy and execution at the intersection of healthcare, AI, and
-              mobile technology. I build scalable platforms, launch multi-study infrastructure,
-              and partner with clinicians, engineers, and data scientists to turn complex ideas
-              into measurable outcomes.
+              Two decades across two of the country's top health systems. I've built platforms
+              from scratch, rescued stalled programs, and led teams through the full arc from
+              early research infrastructure to tools used in active clinical practice.
             </p>
 
             <motion.div

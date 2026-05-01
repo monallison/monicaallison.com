@@ -17,7 +17,7 @@ export function Contact() {
         >
           <h2 className="text-3xl md:text-4xl font-bold mb-6">Let's build something great together.</h2>
           <p className="text-slate-300 text-lg mb-12 leading-relaxed">
-            Open to new opportunities, speaking engagements, or just a chat about the future of product management.
+            Open to new opportunities, speaking engagements, or just a conversation about building better products in healthcare and research.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-8">

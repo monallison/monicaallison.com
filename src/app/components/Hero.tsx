@@ -23,7 +23,7 @@ export function Hero() {
             Turning <span className="text-indigo-600">complex healthcare and research problems</span> into scalable products and systems.
           </h1>
           <p className="text-lg md:text-xl text-slate-600 mb-8 max-w-lg leading-relaxed">
-            I've spent my career working across healthcare operations, informatics, and digital product development which gives me a practical lens on how to turn messy real-world problems into useful, scalable products.
+            I've worked across healthcare operations, clinical informatics, and digital product development, which means I understand the problem as well as the product, and can move between research, clinical, and engineering teams without losing the thread.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <a
